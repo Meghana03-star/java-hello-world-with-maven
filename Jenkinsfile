@@ -7,7 +7,7 @@ pipeline{
     }
 
     stages{
-        stage('megs-build'){
+        stage('megss-build'){
             steps{
                sh 'mvn package'
             }
